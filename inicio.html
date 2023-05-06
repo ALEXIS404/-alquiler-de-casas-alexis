@@ -16,8 +16,9 @@
                 <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
               </svg>
             </div>
-            <div class=" flex-direction-colums text-black">Tu Ubicacion
-                 <h>Bien Venidos</h1>
+            <div class=" flex flex-col text-black items-center">
+              <p class="text-sm">Tu Ubicacion</p>
+                <h1>Bien Venidos</h1>
                 </div>
             <div>
               <img class="w-10 h-10 rounded-full" src="/src/images/profile.jpg" alt="Rounded avatar">
@@ -25,20 +26,25 @@
             </div>
           </header>
      </div>
-    <div>    
-<form>   
-    <label for="default-search" class=" mb-2 text-sm font-medium text-white sr-only dark:text-white">Search</label>
-    <div class="relative">
-        <div class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
-            <svg aria-hidden="true" class="w-5 h-5 text-white dark:text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
-        </div>
-        <div>
-        <input type="search" id="default-search" class="block w-full p-4 pl-10 text-sm text-gray-900 border border-gray-200 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-100 dark:border-gray-200 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Buscar por direccion,  ciudad o precios" required>
-        <button type="submit" class="text-white absolute right-2.5 bottom-2.5 bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"><svg aria-hidden="true" class="w-4 h-4 mr-2 fill-current" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M5 4a1 1 0 00-2 0v7.268a2 2 0 000 3.464V16a1 1 0 102 0v-1.268a2 2 0 000-3.464V4zM11 4a1 1 0 10-2 0v1.268a2 2 0 000 3.464V16a1 1 0 102 0V8.732a2 2 0 000-3.464V4zM16 3a1 1 0 011 1v7.268a2 2 0 010 3.464V16a1 1 0 11-2 0v-1.268a2 2 0 010-3.464V4a1 1 0 011-1z"></path></svg></button>
-        </div>
-    </div>
-</form>
-     </div>     
+   
+      <div class="flex gap-4 p-2">
+        <form class="w-full">   
+          <label for="default-search" class=" mb-2 text-sm font-medium text-white sr-only dark:text-white">Search</label>
+          <div class="relative">
+              <div class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
+                  <svg aria-hidden="true" class="w-5 h-5 text-white dark:text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
+              </div>
+              <div>
+              <input type="search" id="default-search" class="block w-full p-4 pl-10 text-sm text-gray-900 border border-gray-200 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-100 dark:border-gray-200 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Buscar por direccion,  ciudad o precios" required>
+              </div>
+              
+          </div>
+      </form>
+      <div class="flex justify-center items-center mr-4">
+        <svg aria-hidden="true" class="w-7 h-7 mr-2 fill-current" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M5 4a1 1 0 00-2 0v7.268a2 2 0 000 3.464V16a1 1 0 102 0v-1.268a2 2 0 000-3.464V4zM11 4a1 1 0 10-2 0v1.268a2 2 0 000 3.464V16a1 1 0 102 0V8.732a2 2 0 000-3.464V4zM16 3a1 1 0 011 1v7.268a2 2 0 010 3.464V16a1 1 0 11-2 0v-1.268a2 2 0 010-3.464V4a1 1 0 011-1z"></path></svg>
+      </div>   
+      </div>
+   
 <div class="flex items-center justify-between p-4">
     <button type="button" class=" w-full text-white-900 bg-white hover:bg-white-100 border border-white-100 focus:ring-4 focus:outline-none focus:ring-white-100 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-white-100 dark:bg-white dark:border-white dark:text-black dark:hover:bg-gray-700 mr-2 mb-2">
     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="blue" class="w-6 h-6">
@@ -60,7 +66,7 @@
 <div class="grid grid-cols-2 gap-4  p-4" >
     
     <div class="border border-white rounded-lg hover:bg-white-100 border-white-100 focus:ring-4 focus:outline-none focus:ring-white-100 font-medium text-center  dark:bg-white dark:border-white  dark:hover:bg-gray-700" >
-        <h1 class=" dark:bg-white dark:border-white dark:hover:bg-gray-700 border border-white text-2 font-bold text-blue-500 position: absolute font-size: 24px font-weigth left: 150px top: 0px "> $125
+        <h1 class="dark:bg-white dark:border-white dark:hover:bg-gray-700 border border-white text-2 font-bold text-blue-500 position: absolute font-size: 24px font-weigth"> $125
         </h1>
         <img class="h-auto max-w-full rounded-lg" src="./src/images/gallery-3.jpeg" alt="">
         <p class="mb-3 font-normal text-black text-center ">colonia.</p>
@@ -85,7 +91,6 @@
       </button>
 </div>
 
-    
 </div>
     
 <div class="p-4">
